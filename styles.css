@@ -1,0 +1,88 @@
+body {
+    margin: 0;
+    padding: 0;
+
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    background: grey;
+    margin: 0;
+    padding: 32px 200px;
+}
+
+
+ol {
+    display: flex;
+    gap: 32px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+
+}
+
+.hero {
+    display: flex;
+    background: lightblue;
+    color: rgb(88, 92, 91);
+    margin: 0;
+    padding: 32px 200px;
+}
+
+.hero-left {
+    flex: 1;
+
+}
+
+.hero-right {
+    flex: 1;
+    background: red;
+}
+
+
+.tiles-slice {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    align-items: center;
+    background: gainsboro;
+    margin: 0;
+    padding: 32px 252px;
+
+}
+
+.tiles-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 52px;
+    
+}
+
+.tile-one,
+.tile-two,
+.tile-three,
+.tile-four {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: rgb(148, 148, 245);
+}
+
+.tile-box {
+    height: 150px;
+    width: 150px;
+    background: aqua;
+    border: 4px solid black;
+    border-radius: 16px;
+}
+
+.quote {
+    background: pink;
+
+}
+
+.footer {
+    background: gainsboro;
+
+}
